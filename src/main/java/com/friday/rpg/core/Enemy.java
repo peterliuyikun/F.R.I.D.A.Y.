@@ -110,6 +110,7 @@ public class Enemy implements Serializable {
     public double getHealthPercent() { return (double) currentHealth / maxHealth; }
     public int getXPReward() { return xpReward; }
     public int getGoldReward() { return goldReward; }
+    public int getSpeed() { return speed; }
     public List<Item> getLoot() {
         List<Item> drops = new ArrayList<>();
         for (Item item : lootTable) {

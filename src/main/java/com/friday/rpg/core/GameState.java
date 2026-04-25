@@ -1,6 +1,7 @@
 package com.friday.rpg.core;
 
 import com.friday.rpg.combat.Battle;
+import com.friday.rpg.inventory.Item;
 import com.friday.rpg.map.GameMap;
 import com.friday.rpg.map.Position;
 
